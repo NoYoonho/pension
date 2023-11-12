@@ -1,0 +1,14 @@
+1:1문의 => 쓰기  folder : inquiry
+테이블명 : inquiry
+ create table inquiry(
+    -> id int auto_increment primary key,
+    -> userid char(10),
+    -> title int,
+    -> content varchar(200),
+    -> writeday date,
+    -> state int default 0);
+
+나의글  =>  게시판, 여행후기, 1:1문의 , 리뷰
+리뷰쓰기
+
+관리자 내용

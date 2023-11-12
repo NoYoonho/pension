@@ -1,0 +1,27 @@
+프로젝트내에 파일구분
+
+각 모듈별로 폴더를 구분하여 처리
+
+webapp                  src/main/java/pension/dto/
+                                                       /dao/
+   - sogae
+   
+   - room     :    RoomDao         RoomDto
+
+   - tour    
+
+   - reserve  :     ReserveDao      ReserveDto
+
+   - main  :  첫번째 페이지(index)
+
+   - board   :      BoardDao         BoardDto
+
+   - hugi     :      HugiDao          HugiDto
+
+   - gongji   :      GongjiDao        GongjiDto
+
+   - member :     MemberDao      MemberDto
+
+   - admin    :     AdminDao        
+
+   

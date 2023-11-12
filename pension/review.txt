@@ -1,0 +1,21 @@
+review
+테이블 구성
+create table review(
+    -> id int auto_increment primary key,
+    -> start int,
+    -> content varchar(200),
+    -> title varchar(50),
+    -> writeday date,
+    -> userid char(10),
+    -> rid int,
+    -> jcode char(12)) ;
+
+review.jsp 폼
+객실에 평가
+1. 별점
+2. 상세리뷰
+3. 한줄요약
+
+review_ok.jsp 저장  => review테이블
+
+별그림 :  /webapp/img/star1.png, star2.png

@@ -1,0 +1,9 @@
+게시판 : board
+
+ create table board(
+    -> id int auto_increment primary key,
+    -> userid char(10),
+    -> title varchar(100),
+    -> content text,
+    -> writeday date,
+    -> readnum int default 0);

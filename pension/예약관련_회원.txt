@@ -1,0 +1,9 @@
+
+* member테이블에 있는 모든 사용자의 예약관련 정보를 구할때(예약안한 사람 포함)
+ select *,
+    -> (select sum(chongprice) from reserve where userid=member.userid) ,
+    -> (select count(*) from reserve where userid=member.userid) from member;
+
+* member 테이블 정보와 일치하는 reserve의 정보를 같이 출력(예약안한 사람 포함되지 않는다)
+select count(*) as cnt , sum(chongprice) as chong ,member.* from reserve , member  
+where member.userid=reserve.userid group by userid

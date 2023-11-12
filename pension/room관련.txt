@@ -1,0 +1,27 @@
+객실관련 게시판
+
+테이블명 : room
+id
+name
+price
+min  기준
+max 최대
+content 
+객실 - 36.4㎡(11평), 주방 1, 화장실/욕실 1, 방 1
+에어컨, TV, 전화기, 냉장고, 주방시설
+욕실
+비데, 샤워부스, 헤어드라이기, 타월, 바디샴푸, 샴푸/린스
+서비스&기타
+금연
+writeday
+img (그림파일,그림파일,)
+
+ create table room(
+    -> id int auto_increment primary key,
+    -> name varchar(100),
+    -> price int,
+    -> min int,
+    -> max int,
+    -> content text,
+    -> writeday date,
+    -> img varchar(300));

@@ -1,0 +1,28 @@
+예약테이블 : reserve
+id
+inday date
+outday date
+rid  // room테이블의 id
+userid
+inwon
+bbq
+chacol
+chongprice 
+writeday 
+jcode
+
+create table reserve(
+    -> id int auto_increment primary key,
+    -> inday date,
+    -> outday date,
+    -> rid int,
+    -> userid char(10),
+    -> inwon int,
+    -> bbq int,
+    -> chacol int,
+    -> chongprice int,
+    -> writeday date,
+    -> jcode char(12));
+
+
+

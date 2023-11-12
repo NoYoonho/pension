@@ -1,0 +1,21 @@
+이벤트
+table : event
+create table event(
+    -> id int auto_increment primary key,
+    -> title varchar(100),
+    -> content text,
+    -> writeday date,
+    -> img varchar(100),
+    -> gihan date);
+
+EventDao.java
+EventDto.java
+
+webapp/admin/event/
+    write.jsp , write_ok.jsp , list.jsp , content 수정,삭제
+webapp/admin/event/img/ 
+   파일저장
+
+사용자
+webapp/event/
+list.jsp , content.jsp

@@ -1,0 +1,16 @@
+공지사항
+
+관리자 /webapp/admin/gongji
+write.jsp  write_ok.jsp , update.jsp  update_ok.jsp  delete.jsp list.jsp , readnum.jsp , content.jsp
+ 
+사용자 (회원 및 비회원)  /webapp/gongji
+list.jsp , readnum.jsp , content.jsp
+
+테이블 : gongji
+ create table gongji(
+    -> id int auto_increment primary key,
+    -> title varchar(100),
+    -> content text,
+    -> readnum int default 0,
+    -> writeday date,
+    -> step int);
